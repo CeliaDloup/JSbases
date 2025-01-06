@@ -5,6 +5,21 @@
     </head>
     <body>
         <h1>Exercice 1</h1>
-        <script src="script.js"></script>
+        <script>
+            var kelvins = prompt("Quelle est la température en Kelvins aujourd'hui ?");
+            kelvins = parseFloat(kelvins);
+            let kelvin = 294;
+            let celsius = kelvins - 273; // conversion température celsius, kelvin-273 degré
+            let fahrenheits = celsius * (9/5) + 32 // conversion de celcius en farhenheits
+            fahrenheits = Math.floor(fahrenheits); // Arrondir la température en Fahrenheit en utilisant Math.floor().
+
+            console.log("Température en Kelvins : " + kelvins);
+            console.log("Température en Celsius : " + celsius);
+            console.log("Température en Fahrenheit (arrondie) : " + fahrenheits);
+
+        </script>
+        
+
+
     </body>
 </html>
