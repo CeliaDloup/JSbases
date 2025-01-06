@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+
+        <h1>Exercice 0</h1>
+
+        <script type="text/javascript">
+
+        /* Section 1 */   
+
+        var name = "Joe"; // Déclare une variable 'name' contenant le string "Joe".
+        var city = 'London'; // Déclare une variable 'city' contenant le string 'London'.
+        var age = 32; // Déclare une variable 'age' contenant l'entier 32.
+        var isRed = true; // Déclare une variable booléenne 'isRed' et lui assigne la valeur true.
+        var isOld = age > 80; // Déclare 'isOld' et évalue si 'age' est supérieur à 80 (false ici).
+
+        var previousJobs = ['lawyer', 'developper', 'Professionnal climber'];  // Tableau contenant les précédents emplois de Joe.
+
+        function info(height, weight) { // Définition d'une fonction 'info' qui affiche des messages selon la taille et le poids donnés.
+            if (height > 180) {
+                console.log('Vous êtes grand');  // Si la taille est supérieure à 180, affiche "Vous êtes grand".
+            }
+            }
+            if (weight < 0) {
+                console.log('oups, there is a problem'); // Si le poids est négatif, affiche un message d'erreur.
+            } else if ( weight < 15) {
+                console.log('Are you that slim ?') // Si le poids est entre 0 et 15, affiche ce message.
+            } else {
+                console.log('Good !') //sinon affiche good
+            }
+        }
+
+        info(165, 45); // Appelle la fonction 'info' avec une taille de 165 et un poids de 45.
+
+        var myHeight = 175; // variable ma taille d'une valeur de 175
+        var myWeight = 86; // variable mon poids d'une valeur de 86
+
+        info(myHeight, myWeight); // fonction info ma taille et mon poids
+
+        info(myHeight + 15, myWeight - 100); // fonction info avec +15 sur ma taille et -100 sur mon poids  
+
+        function toUpper(variable) {
+            return variable.toUpperCase();  // Retourne la chaîne en majuscules.
+        }
+
+        var upperName = toUpper(name); // met le nom en majuscul
+
+        for (i = 0; i < 3; i = i + 1) {
+            console.log(previousJobs[i]);
+        }
+
+        /* Section 2: */
+
+        // afficher la ville dans laquele Joe vit.     
+
+        // afficher si Joe est roux ou pas.
+
+        /* Section 3 */
+
+        // console.log(myVariable);
+
+        </script>
+
+    </body>
+</html>
